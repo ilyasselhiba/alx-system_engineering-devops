@@ -1,2 +1,2 @@
 #!/bin/bash
-find ./ ../ /boot -type f -exec ls -la {} +
+echo "./ ../ /boot" | xargs ls -la
