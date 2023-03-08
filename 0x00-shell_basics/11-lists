@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "./ ../ /boot" | xargs ls -la
+echo "./ ../ .../ /boot" | xargs ls -la
