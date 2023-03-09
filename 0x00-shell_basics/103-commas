@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -a1 | sed 's/$/,/' | sed 's/^\.\{1,2\}$/&\//' | LC_ALL=C sort -df | tr -d '\n'; echo
+ls -1AF | sed '$s/.$//' | tr '\n' ',' | sed 's/,$/\n/'
