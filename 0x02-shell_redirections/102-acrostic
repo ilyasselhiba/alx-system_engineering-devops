@@ -1,2 +1,2 @@
 #!/bin/bash
-not yet
+cut -c 1 | paste -s -d ''
