@@ -1,2 +1,2 @@
 #!/bin/bash
-perl -pe 's/A/Z/g; s/c/e/g' input.txt
+tr "A" "Z" | tr "c" "e"
