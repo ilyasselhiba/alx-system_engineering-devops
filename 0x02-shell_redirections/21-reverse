@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Reverse" | perl -lne 'print scalar reverse $_'
+echo "input string" | rev
